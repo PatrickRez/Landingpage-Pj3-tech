@@ -1,0 +1,24 @@
+body{
+    font-family: Roboto, sans-serif;
+}
+
+.navbar {
+    background-color: #483d77;
+}
+
+.carousel-inner img{
+    height: 720px;
+}
+
+#cabecalho .nav .nav-link,
+.nav-cardapio .nav-link.active:hover{
+    color: #fff;
+}
+
+.card {
+    display: inline-block;
+    justify-content: space-around;
+    margin-left: 4px;
+    margin-right: 15px;
+    margin-top: 10px;
+} 
