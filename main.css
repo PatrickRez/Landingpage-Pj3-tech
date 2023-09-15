@@ -1,5 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Roboto:wght@400;700&display=swap');
+
+
 body {
-    font-family: Roboto, sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Rajdhani', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar-barnd{
+    font-family: 'Rajdhani', sans-serif; ;
 }
 
 .navbar {
@@ -15,9 +24,11 @@ body {
     color: #fff;
 }
 
-.h2{
+.text-conf {
     text-align: center;
-    margin-bottom: 4;
+    margin-bottom: 4px;
+    font-family: 'Acme', sans-serif;
+
 }
 
 .card {
@@ -31,9 +42,14 @@ body {
     padding: 7px;
 }
 
-.nav-produtos{
+.nav-produtos {
     flex-direction: column;
     margin: 3px;
+}
+
+.text-center {
+    margin: 32px;
+    text-align: center !important;
 }
 
 
@@ -44,7 +60,7 @@ body {
         margin: 5px;
     }
 
-    .card .btn{
+    .card .btn {
         font-size: larger;
         font-stretch: extra-condensed;
         background-color: rgb(103, 65, 177);
@@ -52,16 +68,16 @@ body {
         margin: 5px;
     }
 
-    #Produtos{
+    #Produtos {
         margin-top: 2rem;
     }
 
-    .h2{
+    .h2 {
         margin-top: 23px;
         margin-bottom: 32px;
     }
 
-    .nav-produtos{
+    .nav-produtos {
         flex-direction: row;
     }
 }
@@ -73,7 +89,7 @@ body {
         margin: 18px;
     }
 
-    .card .btn{
+    .card .btn {
         font-size: larger;
         font-stretch: extra-condensed;
         background-color: rgb(103, 65, 177);
@@ -81,16 +97,16 @@ body {
         margin: 5px;
     }
 
-    #Produtos{
+    #Produtos {
         margin-top: 1rem;
     }
 
-    .h2{
+    .h2 {
         margin-top: 23px;
         margin-bottom: 32px;
     }
 
-    .nav-produtos{
+    .nav-produtos {
         flex-direction: row;
     }
 }

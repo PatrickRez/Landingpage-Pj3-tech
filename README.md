@@ -35,6 +35,16 @@ obs; passei 23minutos mudando left e right se eu poderia apenas ter colocado em 
 6º a menida rem e vh nao medidas muito usado por diversos artigos mais nao me sinto nada conformavel usando por enquando acredito que px esta sendo mas simples de entender mais sei que isso é uma questao de usabilidade
     R ir usanod acada vez mais ao poucos.
 
+7º O projeto nao tem fim sempre tem uma ideia nova e algo que voce queria colocar ou que pode iserie por mais simples que seja 
+    R colocar um fim no projeto seja uma data ou um numero definido de objetivo por sessao ( a credito que logica de programação seja 
+    mais simples ter fim.)
+
+#Melhorias que hoje eu colocarias.
+
+No navbar colocar um sistema de apoiadores
+O carrosel a primeira imagen com focus e as demais uma a direita outra a esqueda apenas uma parte como primeiro planno segundo plano 
+Scroll horizontal nos mais quentes e links ao produtos ou direto para o apoia.
+Sei que possivel mente existe varias outras coisas que poderiam mais hoje essas sao as principais 
 
 
 
