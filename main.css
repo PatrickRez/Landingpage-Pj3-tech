@@ -1,4 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Acme&family=Roboto:wght@400;700&display=swap');
+* {
+    padding:0px;
+    margin:0px;
+    box-sizing: border-box;
+}
+
+
 
 
 body {
@@ -52,12 +59,19 @@ body {
     text-align: center !important;
 }
 
-
-@media screen and (max-width: 765px) {
-    .card {
+@media screen and (max-width: 375px) and (max-width: 667px){
+    .carousel-inner img {
+        height: 720px;
+    }
+    
+    .cards {
         text-align: center;
-        width: 32rem;
         margin: 5px;
+    }
+
+    .text-center {
+        margin: 0;
+        text-align: center !important;
     }
 
     .card .btn {
@@ -66,6 +80,7 @@ body {
         background-color: rgb(103, 65, 177);
         color: black;
         margin: 5px;
+        
     }
 
     #Produtos {
@@ -82,14 +97,52 @@ body {
     }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1023px) {
-    .card {
+@media screen and (max-width: 767px) {
+    .carousel-inner img{
+        height: 280px;
+    }
+    
+    .cards {
         text-align: center;
-        width: 19rem;
-        margin: 18px;
+        margin: 5px;
+        flex-wrap: wrap;
     }
 
-    .card .btn {
+    .cards .btn {
+        font-size: larger;
+        font-stretch: extra-condensed;
+        background-color: rgb(103, 65, 177);
+        color: black;
+        margin: 5px;
+    }
+
+    #Produtos {
+        margin-top: 2rem;
+    }
+
+    .text-center {
+        margin: 0;
+        text-align: center !important;
+    }
+
+    .h2 {
+        margin-top: 23px;
+        margin-bottom: 32px;
+    }
+
+    .nav-produtos {
+        flex-direction: row;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .cards {
+        text-align: center;
+        margin: 18px;
+        flex-wrap: wrap;
+    }
+
+    .cards .btn {
         font-size: larger;
         font-stretch: extra-condensed;
         background-color: rgb(103, 65, 177);
@@ -110,8 +163,3 @@ body {
         flex-direction: row;
     }
 }
-
-
-
-
-@media screen and (min-width:1024px) {}
